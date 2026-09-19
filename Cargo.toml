@@ -1,0 +1,13 @@
+[package]
+name = "vsl"
+version = "0.1.0"
+edition = "2024"
+description = "VSL payload format and bundle serialization"
+license = "Unlicense"
+
+[dependencies]
+thiserror = "2"
+sha2 = "0.10"
+
+[dev-dependencies]
+tempfile = "3"
