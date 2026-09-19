@@ -1,7 +1,7 @@
 use crate::{
     digest::sha256,
     error::Error,
-    format::{VSL_TYPE, header},
+    format::header,
 };
 
 pub fn encode(payload: &[u8], digest: [u8; 32]) -> Vec<u8> {

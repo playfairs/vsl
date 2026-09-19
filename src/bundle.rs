@@ -1,5 +1,4 @@
 use std::{
-    collections::BTreeMap,
     fs,
     path::{Component, Path, PathBuf},
 };
